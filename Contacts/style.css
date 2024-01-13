@@ -1,0 +1,144 @@
+body{
+    background-color: #050e2d;
+}
+#img1{
+    height: 100px;
+    width: 200px;
+}
+
+.contact{
+    background-image: url(../images/contactbg.jpg);
+
+    object-fit: contain;
+    padding: 20px 100px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    font-size: 15px;
+}
+img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+.form{
+    width: 50%;
+    margin: 30px
+}
+h1{
+    color: #fff;
+
+}
+.inputBx{
+    margin: 10px 0;
+}
+p{
+    color: #fff;
+}
+input, textarea{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background: #1b2141;
+    min-height: 15px;
+}
+textarea{
+    height: 150px;
+}
+input[type="submit"]{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+input[type="submit"]:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+
+}
+footer{
+    padding: 10px 100px;
+}
+.finfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flogo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size:2em ;
+    font-weight: 700;
+}
+.finfo p{
+    color: #dbd9d9;
+}
+.finfo ul{
+    margin:10px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finfo li{
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1aeeef;
+
+}
+.finfo li:hover{
+    background: #1aeeef;
+    border: none;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.finfo li i{
+    font-size: 1.5em;
+    color: #fff;
+} 
+.finfo li:hover a i{
+    color: #050e2d;
+}
+.b1, .b2{
+    color: #fff;
+}
+.s1, .s2, .s3, .s4, .s5{
+    
+    display: inline-block;
+}
+.s2, .s3, .s5{
+    margin-left: 60px;
+}
+.rights{
+    color: #fff;
+}
+.terms{
+    text-decoration: none;
+}
+#a1, #a2, #a3{
+    margin: 20px;
+    color: #fff;
+}

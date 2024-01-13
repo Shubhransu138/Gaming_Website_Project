@@ -1,0 +1,355 @@
+body{
+    background-color: #050e2d;
+ 
+    object-fit: fill;
+}
+
+
+#img1{
+    height: 100px;
+    width: 200px;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 7px 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b2141;
+    transition: 0.5s;
+    z-index: 1000;
+   height:80px;
+
+}
+header .logo{
+color:red;
+    position: relative;
+color: beige;
+font-size: 2em;
+font-weight: bold;
+outline-offset: 0cap;
+text-underline-offset: 0px;
+
+}
+ header ul li {
+color:beige;
+    list-style-type: none;
+    display: inline-flex;
+     text-underline-offset: -100px;
+     justify-content: space-between;
+     margin-left: 20px;
+
+ }
+ header ul li:hover{
+    background-color: aqua;
+ }
+
+ header ul li a{
+    color: beige;
+    font-size: 17px;
+font-weight: bold;
+ }
+ header ul li a:hover{
+    background: aqua;
+
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 10px aqua;
+ }
+.info  {
+font-size: 20px;
+
+}
+.action .searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+header .searchbox i{
+    font-size: 1.9em;
+    color:#222;
+}
+.videoim{
+    height: 400%;
+}
+.backvideo{
+
+    position:absolute;
+    right:0;
+    left: 0;
+    z-index:-1 ;
+    height: px;
+    top: 100px;
+    width:2000px;
+    }
+
+    .games{
+
+       
+    }
+.games h2 {
+    background-image: url(../images/Gaming_hubbg.png);
+        font-size: 70px;
+        font-weight: 600;
+        color: #fdfdfe;
+        text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+          0px 0px 20px #b393d3;
+         
+      }
+
+
+      .upcoming {
+        font-size: 120px;
+        text-transform: uppercase;
+        font-family: 'Gambetta', serif;
+        letter-spacing: -3px;
+        transition: 700ms ease;
+        font-variation-settings: "wght" 311;
+        margin-bottom: 0.8rem;
+        color: PaleGoldenRod;
+        outline: none;
+        text-align: center;
+      }
+      
+      .upcoming:hover {
+        font-variation-settings: "wght" 582; 
+        letter-spacing: 1px;
+      }
+      
+      p {
+        font-size: 1.2em;
+        line-height: 150%;
+        text-align: center;
+        color: MintCream;
+        letter-spacing: .5px;
+      }
+
+
+      
+
+
+
+.games{
+padding: 0px 100px;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 40px auto;
+}
+
+.games h2{
+    color: #fff;
+    margin: 10px 0;
+}
+.games ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.games ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color:black;
+    border: 1PX solid rgb(77, 3, 3);
+    background-color:rgb(51, 232, 232);
+}
+.games ul li:active{
+    border: none;
+    background: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 100px #1aeeef;
+}
+.games .cardBx{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.games .cardBx .card{
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background : #1b2141;
+    overflow: hidden;
+}
+.games .cardBx .card img{
+width: 100%;
+height: 250px;
+object-fit: cover;
+}
+.games .cardBx .card .content{
+    padding: 10px; 
+}
+.games .cardBx .card .content {
+    color: #fff;
+    margin: 15px 0;
+}
+h4{
+    color: #fff;
+    
+}
+.games .cardBx .card .progess-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #35407e;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.games .cardBx .card .progess-line span{
+position: absolute;
+height: 100%;
+width: 80%;
+border-radius: 10px;
+background-color: #1aeeef;
+box-shadow: 0 0 10px #1aeeef;
+transform-origin: left;
+transform: scaleX(0);
+animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+@keyframes animate2{
+    100%{
+        transform: scaleX(1.5);
+    }
+}
+.games .cardBx .card .info{
+    border-top: 2px solid #35407e;
+    padding: 5px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.games .cardBx .card .info p{
+    font-size: 1em;
+    color: #fff;
+}
+.games .cardBx .card .info p span{
+    color: #1aeeef;
+}
+.games .cardBx .card .info a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.games .cardBx .card .info a:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.h4, .info p{
+    position: relative;
+    left: 8px;
+}
+.card{
+   
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+/* viddoeoe */
+
+
+
+
+.listing-card {
+    background-color: #fff;
+    padding: 15px 15px 30px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0px 0px 8px 0px rgb(218 218 218);
+    margin: auto;
+    margin-bottom: 30px;
+
+  
+}
+.lc2{
+    margin-left: 80px;
+}
+
+.listing-card .video {
+    height: 380px
+}
+
+.listing-card .video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.listing-card .details {
+    padding-top: 10px;
+}
+
+.listing-card .details h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.listing-card .details p {
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.listing-card .btn-default {
+    padding: 6px 30px;
+    background-color: #edb04f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.listing-card .btn-default:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transform: scale(1.8);
+}
+
+/* testiomnia */
+
+
+
+
+
